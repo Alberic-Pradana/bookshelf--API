@@ -212,8 +212,8 @@ const deleteBookByIdHandler = (request, h) => {
 
 module.exports = {
   addBookHandler,
-  getAllBooksHandler,
   getBookByIdHandler,
   editBookByIdHandler,
+  getAllBooksHandler,
   deleteBookByIdHandler,
 };

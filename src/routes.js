@@ -8,11 +8,6 @@ const routes = [
   },
   {
     method: "GET",
-    path: "/books",
-    handler: getAllBooksHandler,
-  },
-  {
-    method: "GET",
     path: "/books/{bookId}",
     handler: getBookByIdHandler,
   },
@@ -20,6 +15,11 @@ const routes = [
     method: "PUT",
     path: "/books/{bookId}",
     handler: editBookByIdHandler,
+  },
+  {
+    method: "GET",
+    path: "/books",
+    handler: getAllBooksHandler,
   },
   {
     method: "DELETE",
